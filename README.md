@@ -1,4 +1,4 @@
-# 📋 AuctionWithRefundsAndFinalization - Smart Contract
+# AuctionWithRefundsAndFinalization - Smart Contract
 
 This smart contract implements an **English-style auction** with:
 
@@ -6,13 +6,13 @@ This smart contract implements an **English-style auction** with:
 * Time extension for last-minute bids.
 * Fee mechanism that rewards the auctioneer.
 
-## 📄 License
+##  License
 
 This project is licensed under [GPL-3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
 ---
 
-## ⚙️ General Functionality
+## General Functionality
 
 This contract allows:
 
@@ -24,7 +24,7 @@ This contract allows:
 
 ---
 
-## 🔧 Public Functions
+## Public Functions
 
 ### `constructor()`
 
@@ -61,7 +61,7 @@ Ends the auction after time has expired:
 
 ---
 
-## 📊 Public Variables
+##  Public Variables
 
 | Variable                | Type        | Description                                 |
 | ----------------------- | ----------- | ------------------------------------------- |
@@ -81,7 +81,7 @@ Ends the auction after time has expired:
 
 ---
 
-## 📢 Events
+##  Events
 
 | Event          | Parameters                                     | Description                                             |
 | -------------- | ---------------------------------------------- | ------------------------------------------------------- |
@@ -92,7 +92,7 @@ Ends the auction after time has expired:
 
 ---
 
-## 🔒 Security Notes
+## Security Notes
 
 * Bids must be at least 5% higher than the current top bid.
 * Prevents premature finalization.
@@ -103,6 +103,6 @@ Ends the auction after time has expired:
 
 ## 🚀 Deployment & Testing
 
-* Compiler: Solidity ^0.8.2
+* Compiler: Solidity >=0.8.2 <0.9.0;
 * Recommended network: Sepolia testnet
-* Tools: Remix, Hardhat, Foundry
+* Tools: Remix 
